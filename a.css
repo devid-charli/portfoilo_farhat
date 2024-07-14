@@ -7,7 +7,17 @@
     box-sizing: border-box;
 }
 
+.mc{
+    background-color: black;
+    width:100%;
+   min-height: 100vh;
+   display: flex;
+}
+
 div .navlist {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(117, 88, 45);
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -16,11 +26,18 @@ div .navlist {
 .mc ul li{
     position: relative;
     display: inline-flex;
-    margin: 10px;
-    padding: 10px;
+    margin: 15px;
+    padding: 15px;
     
 }
 
 .mc ul li a{
     text-decoration: none;
+    color: burlywood;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mc ul li a:hover{
+    color: brown;
 }
