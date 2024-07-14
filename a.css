@@ -12,6 +12,7 @@
     width:100%;
    min-height: 100vh;
    display: flex;
+   position: relative;
 }
 
 div .navlist {
@@ -21,9 +22,10 @@ div .navlist {
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: absolute;
 } 
 
-.mc ul li{
+.mc .navlist ul li{
     position: relative;
     display: inline-flex;
     margin: 15px;
@@ -31,13 +33,13 @@ div .navlist {
     
 }
 
-.mc ul li a{
+.mc .navlist ul li a{
     text-decoration: none;
     color: burlywood;
     font-size: 20px;
     font-weight: bold;
 }
 
-.mc ul li a:hover{
+.mc .navlist ul li a:hover{
     color: brown;
 }
