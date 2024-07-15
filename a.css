@@ -43,3 +43,56 @@ div .navlist {
 .mc .navlist ul li a:hover{
     color: brown;
 }
+
+.boxleft{
+    background-color: rgba(3, 3, 19, 0.356);
+    width: 70%;
+}
+
+.boxleft .sub{
+display: flex;
+flex-direction: column;
+margin-top: 180px ;
+color: rgb(31, 31, 90);
+font-size: 40px;
+padding: 30px;
+gap: 20px;
+
+
+}
+.boxleft .sub .a3{
+    background-color: white;
+    border-radius: 50%;
+}
+.boxleft .sub .a{
+    background: linear-gradient(rgb(149, 160, 168),rgb(119, 119, 153));
+    color: rgba(14, 14, 138, 0.712);
+    border-radius: 50%;
+    
+    }
+
+    .boxleft .sub .a1{
+        background: linear-gradient(rgb(148, 39, 115),rgb(113, 7, 122));
+        color: rgba(112, 20, 48, 0.712);
+        border-radius: 50%;
+       
+        
+        }
+        .boxleft .sub .a4{
+            background-color: wheat;
+            color:black;
+            border-radius: 50%;
+           
+            
+            }
+        .boxleft .sub .a2{
+    background: linear-gradient(rgb(56, 34, 97),rgb(147, 141, 156));
+            color: rgba(33, 33, 126, 0.712);
+            border-radius: 50%;
+            }
+
+            
+.boxright{
+    background-color: rgba(3, 3, 19, 0.87);
+    width: 30%;
+}
